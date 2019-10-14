@@ -124,6 +124,7 @@ planner_configs:
     type: geometric::TrajOpt
 
 panda_arm:
+  default_planner_config: BiTRRTkConfigDefault
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
