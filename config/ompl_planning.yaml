@@ -177,6 +177,7 @@ panda_arm_hand:
     - SPARStwokConfigDefault
     - TrajOptDefault
 hand:
+  default_planner_config: BiTRRTkConfigDefault
   planner_configs:
     - SBLkConfigDefault
     - ESTkConfigDefault
